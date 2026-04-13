@@ -443,11 +443,21 @@
     "歌手/社團名稱": "しろさきあや",
     "社群網站": "https://x.com/nekonisasami",
     "專輯名稱": "Atelier in Bloom",
-    "XFD": "",
+    "XFD": "https://youtu.be/nRBlsuIbxRI",
     "攤位": "M-01a",
     "攤位資訊(品書)": "",
-    "特設網站": "",
-    "Credits": "クマミン/雛野しをん/EYE ROSE/しるば/id.sh/yumel/𝗮𝗶𝗺𝘂/谷キリカ/しの/紗智"
+    "特設網站": "https://atelier-in-bloom.netlify.app/",
+    "Credits": "ÉtudE/T-J/ヒノデ/Wasabeep/TAKIO/EONI/Fujiyori/Kumamin/Shion Hinano/Silverize./yumel/aimu/しの/あいの/クロデル/まより/EYE ROSE/id.sh (floorclean Sound)/谷キリカ/紗智/Puru/nik_ibi/esu_kichi/風舞たち"
+  },
+  {
+    "歌手/社團名稱": "あいの",
+    "社群網站": "https://x.com/aino_2525",
+    "專輯名稱": "Bestie",
+    "XFD": "https://youtu.be/te8hKJiBpL8",
+    "攤位": "L-21b",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://mokonon-bestie.netlify.app/",
+    "Credits": "まるもこ/すくろーす/SaLa/いたちもーど/299"
   },
   {
     "歌手/社團名稱": "kotono(ことの)",
@@ -1278,5 +1288,55 @@
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "SilkyMint",
+    "社群網站": "https://x.com/silky_mint",
+    "專輯名稱": "Daybreak",
+    "XFD": "https://youtu.be/EyqcZEN5BHo",
+    "攤位": "P-02b",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://daybreak-al.netlify.app/",
+    "Credits": "烏丸友吾/てぃるあら/黒霧"
+  },
+  {
+    "歌手/社團名稱": "Ginji",
+    "社群網站": "https://x.com/ggg_jost_ggg",
+    "專輯名稱": "Digital Utopia",
+    "XFD": "https://youtu.be/w20ytrXji_A",
+    "攤位": "P-04b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "一色しめ/馬P"
+  },
+  {
+    "歌手/社團名稱": "詩依",
+    "社群網站": "https://x.com/Stirring_UI",
+    "專輯名稱": "IGNITION!",
+    "XFD": "https://youtu.be/GyzE4Yac6Ao",
+    "攤位": "V-21b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "半間/LUMO/のりすけoMk2/mura/2997/GIN/天倉りぃ/拓都"
+  },
+  {
+    "歌手/社團名稱": "Fluoritopia",
+    "社群網站": "https://x.com/Fluoritopia",
+    "專輯名稱": "",
+    "XFD": "",
+    "攤位": "シ-21ab",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "リズプロ",
+    "社群網站": "https://x.com/RhythmGarden",
+    "專輯名稱": "雷華",
+    "XFD": "https://youtu.be/915Zh_ZVMcY",
+    "攤位": "I-18b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "天導ライカ/幻/準チョコ/春日章宏"
   }
 ]
