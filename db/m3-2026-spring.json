@@ -72,7 +72,7 @@
   {
     "歌手/社團名稱": "Sennzai",
     "社群網站": "https://x.com/sennzai",
-    "專輯名稱": "",
+    "專輯名稱": "𝚄𝚃𝚂𝚄𝚁𝙾𝙸",
     "XFD": "",
     "攤位": "コ-21ab",
     "攤位資訊(品書)": "",
@@ -330,14 +330,24 @@
     "Credits": ""
   },
   {
+    "歌手/社團名稱": "Alchemy+",
+    "社群網站": "https://x.com/Alchemy_mazzy",
+    "專輯名稱": "AS YOU WISH",
+    "XFD": "https://x.com/Alchemy_mazzy/status/2044715041191330243",
+    "攤位": "D-17ab",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "Marica＠Funczion SOUNDS/吉良花鶏/鈴音れな/江田真/稲田昌宏"
+  },
+  {
     "歌手/社團名稱": "つぐ",
     "社群網站": "https://x.com/tuggt_/status/1949839135235100847",
     "專輯名稱": "Exordium",
-    "XFD": "",
+    "XFD": "https://youtu.be/WeJPcNPq9ag",
     "攤位": "お-02ab",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "サツキ/Kyiku/ぐちり/mopi/Powerless/高城みよ/さんかくずわり/えあ。/さぶろう/TKS/KEHAI/瑞真えぬ/鳴宮ユキ"
   },
   {
     "歌手/社團名稱": "七狼さくや",
@@ -558,6 +568,16 @@
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": "ど～ぱみん。/くるみ/柏木ちさめ/七誌（Studio KPP）/槻本美波/栢森たま。"
+  },
+  {
+    "歌手/社團名稱": "ななひら",
+    "社群網站": "https://x.com/nanahira",
+    "專輯名稱": "Reminiscence",
+    "XFD": "https://youtu.be/K0CfFeUIHDg",
+    "攤位": "シ-22ab",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://nanahira.jp/reminiscence/",
+    "Credits": "かめりあ/colate/D.watt(IOSYS)/はるなば/七条レタス(IOSYS)/つこ/春日いづれ/ヒトマスモドル"
   },
   {
     "歌手/社團名稱": "kaza",
@@ -1721,12 +1741,52 @@
   },
   {
     "歌手/社團名稱": "Sugano",
-    "社群網站": "",
+    "社群網站": "https://x.com/suganomusic",
     "專輯名稱": "EUROBEAT SPECIAL VOL.9",
     "XFD": "https://youtu.be/IE9GkKUo_Dk",
     "攤位": "い-06a",
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": "Alessandra Santangelo/Roberto Gabrielli/Francesca Salaris/Claudio Magnani/TEKONDO/ZUN/nmk/tanow/shironegi/sato./YUKIKAZ"
+  },
+  {
+    "歌手/社團名稱": "HaLuna",
+    "社群網站": "https://x.com/HaLuna1207",
+    "專輯名稱": "Lunar Phase",
+    "XFD": "https://youtu.be/gMt0BER8hiQ",
+    "攤位": "D-24b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "Hiruno/Moon Jelly"
+  },
+  {
+    "歌手/社團名稱": "アマギセーラ",
+    "社群網站": "https://x.com/Sera_Amagi",
+    "專輯名稱": "これが初陣",
+    "XFD": "",
+    "攤位": "K-01a",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "Protocol OGMA",
+    "社群網站": "https://x.com/ProtocolOGMA",
+    "專輯名稱": "𝙊𝙂𝙈𝘼 𝟬𝟬𝟭",
+    "XFD": "https://x.com/ProtocolOGMA/status/2044732545833791537",
+    "攤位": "サ-27b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "yoswu",
+    "社群網站": "https://x.com/yoswu",
+    "專輯名稱": "Echo of Verdure",
+    "XFD": "https://x.com/yoswu/status/2044717439359803506",
+    "攤位": "T-08a",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": ""
   }
 ]
