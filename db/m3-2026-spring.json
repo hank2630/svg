@@ -73,11 +73,11 @@
     "歌手/社團名稱": "Sennzai",
     "社群網站": "https://x.com/sennzai",
     "專輯名稱": "𝚄𝚃𝚂𝚄𝚁𝙾𝙸",
-    "XFD": "",
+    "XFD": "https://youtu.be/Kx7GYamF0wY",
     "攤位": "コ-21ab",
-    "攤位資訊(品書)": "",
-    "特設網站": "",
-    "Credits": ""
+    "攤位資訊(品書)": "https://64.media.tumblr.com/31247e6a38f9b6b09ca8b48afca50b89/e32171bdd976593a-e3/s2048x3072/5858938416d36e1b72ee910f6edff435d3a5a7b4.png",
+    "特設網站": "https://sennzai-utsuroi.tumblr.com/",
+    "Credits": "Felysrator/かそかそ（Prismagic）/塚越雄一朗（NanosizeMir）/Tansa/蒼月まりか/Puru/菅原ヒロト(femt)/Saclia/Sol/Elegant Sister"
   },
   {
     "歌手/社團名稱": "優莉",
@@ -195,7 +195,7 @@
     "專輯名稱": "Horizon Leaves",
     "XFD": "https://youtu.be/ESpcJHBOl7M",
     "攤位": "お-27a",
-    "攤位資訊(品書)": "",
+    "攤位資訊(品書)": "https://pbs.twimg.com/media/HGG8G0UboAAFaJK?format=jpg&name=4096x4096",
     "特設網站": "",
     "Credits": "Takh/セラフィ―/猫田もちこ"
   },
@@ -460,6 +460,16 @@
     "Credits": "ニシマケイ - Cody・Lee(李)/REDHOT/hyaku"
   },
   {
+    "歌手/社團名稱": "YAMAKA",
+    "社群網站": "https://x.com/sumi_yamaka",
+    "專輯名稱": "Vivere",
+    "XFD": "https://youtu.be/2YVxdyw1eFo",
+    "攤位": "ク-01a",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "Yona/ryo-shun/sugi/小鳥遊カイリ/はらもりよしな/high/かわみつ/秋丸/PMIY"
+  },
+  {
     "歌手/社團名稱": "海の闇に白を灯す",
     "社群網站": "https://x.com/aMC_honken",
     "專輯名稱": "Asymmetric Deformity",
@@ -488,6 +498,16 @@
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "Hagali",
+    "社群網站": "https://x.com/hagarai",
+    "專輯名稱": "Liehas",
+    "XFD": "https://youtu.be/XbrBVWkiuUs",
+    "攤位": "K-08a",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://hagall.info/liehas/",
+    "Credits": "國土佳音/ぱとり/ぴおてぐ/ほりおみわ/GO TSUKADA/やた郎/笹原那太/Shibayan/Pastel Design/蒼風そうか/清水 嶺/Elegant Sister"
   },
   {
     "歌手/社團名稱": "早乙女あずき",
@@ -1652,9 +1672,9 @@
   {
     "歌手/社團名稱": "3R2",
     "社群網站": "https://x.com/3R2",
-    "專輯名稱": "",
-    "XFD": "",
-    "攤位": "",
+    "專輯名稱": "Collection 01",
+    "XFD": "https://youtu.be/5ROmRWultBQ",
+    "攤位": "V-32b",
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": ""
@@ -1788,5 +1808,45 @@
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "陽桜里",
+    "社群網站": "https://x.com/hiori_sakura",
+    "專輯名稱": "魔法の国のうた",
+    "XFD": "https://youtu.be/7yWWuYgy4V4",
+    "攤位": "M-02b",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://sakuracafemahou.tumblr.com/",
+    "Credits": "風観ゆら(Wind Ark)/綜花/さえきりつ/灰路"
+  },
+  {
+    "歌手/社團名稱": "Annabel",
+    "社群網站": "https://x.com/A_nnabel",
+    "專輯名稱": "a chrysalis awakens the Magnolia city",
+    "XFD": "https://youtu.be/op_JU6E47aU",
+    "攤位": "シ-36ab",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://annabel.jp/magnolia.html",
+    "Credits": "Shouichi Taguchi/kidlit/Ventla Kaoru/Tomotaka Saka/Aki Aoi"
+  },
+  {
+    "歌手/社團名稱": "Sekiya",
+    "社群網站": "",
+    "專輯名稱": "Sequential Gravity",
+    "XFD": "https://x.com/Sekiyan_sound/status/2045102852121801013",
+    "攤位": "お-14b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "みそらみみ/せとかまり/乃々花りあら"
+  },
+  {
+    "歌手/社團名稱": "森羅万象",
+    "社群網站": "",
+    "專輯名稱": "イマジナリア",
+    "XFD": "https://youtu.be/cuDj27E3BbI",
+    "攤位": "お-23ab",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://shinrabansho-music.com/imaginaria/",
+    "Credits": "あよ/棗いつき/kaztora/清水\"カルロス\"宥人/MK/あやぽんず＊/ななひら/Hedonist/をとは/谷高マーク(フーリンキャットマーク)/fluffilm(がむ, るーぺぺ)/藍月なくる/Risa Yuzuki/詠未/waoru(OrbitArk)/まがとろ/うらる/nayuta/かめ/Pira/裕木レオン/Kei Nakamura/柏森たま。/RedForestDesigning"
   }
 ]
