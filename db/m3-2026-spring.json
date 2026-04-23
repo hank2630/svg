@@ -103,11 +103,11 @@
     "歌手/社團名稱": "Eno",
     "社群網站": "https://x.com/eno_zsnr",
     "專輯名稱": "LIKE AN ICECREAM REMIXES",
-    "XFD": "",
-    "攤位": "か-24ab",
+    "XFD": "https://youtu.be/DWlgPX4G9y8",
+    "攤位": "C-02ab",
     "攤位資訊(品書)": "",
-    "特設網站": "",
-    "Credits": ""
+    "特設網站": "https://starmonia.netlify.app/",
+    "Credits": "nayuta/ちょこ/ぱるぺてぃ/月乃/中村さんそ/Eye/JungMato/キリケン/Parang/Nor/EmoCosine/A1NVERSE/YARU/小鳥遊ソラ"
   },
   {
     "歌手/社團名稱": "勿忘うた",
@@ -225,7 +225,7 @@
     "專輯名稱": "Dear Cocytus",
     "XFD": "https://x.com/muryokup/status/2046921970349191497",
     "攤位": "H-14b",
-    "攤位資訊(品書)": "",
+    "攤位資訊(品書)": "https://x.com/muryokup/status/2047269259982876781",
     "特設網站": "",
     "Credits": "花たん/AO"
   },
@@ -3288,5 +3288,15 @@
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": "Worker//Holic/OTOMICA"
+  },
+  {
+    "歌手/社團名稱": "Diverse System",
+    "社群網站": "https://x.com/DiverseSystem",
+    "專輯名稱": "AD:PIANO X",
+    "XFD": "https://youtu.be/EIxnApgH5Nc",
+    "攤位": "あ-01ab",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "濵田有共/xi/BlackY/cosMo＠暴走P/Ice/Tatsunoshin/Juggernaut./7OAST/yuichi NAGAO/しゅーりん/MoAE:./nayuta/Elliot Hsu/Kashiwade/田口囁一/ARForest/kidlit/void (Mournfinale)/AKA/Gardens/Moon Jelly/Xeudo Code/Xeno/eili/X-END/Connexio/Link\"0/LucaProject/Powerless/Essbee/CHESHR/kuro/Halv/Solvrae/Hiyo/MisomyL/onoken/Tomoko Asaka/bqスタヂオ/Osamu Kubota/Raimukun/Ary-You/MossyStone/Cansol/Sobrem/callasoiled/Sad Keyboard Guy/vally.exe/SpiralFlip/のとを/＊-Teris./大嶋啓之/satella/黒魔/月代 彩/Sakuzyo"
   }
 ]
