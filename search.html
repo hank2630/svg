@@ -212,6 +212,17 @@
         .back-link:hover {
             text-decoration: underline;
         }
+
+        .database-tag {
+            display: inline-block;
+            padding: 3px 8px;
+            background-color: #667eea;
+            color: white;
+            border-radius: 3px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-top: 4px;
+        }
     </style>
 </head>
 <body>
@@ -247,13 +258,23 @@
     <br><br><br><br><br>
 
     <script>
-        // 整個資料庫URL
-        const WHOLE_DB_URL = 'https://raw.githubusercontent.com/hank2630/svg/refs/heads/main/whole_db';
+        // 多個資料庫URL配置
+        const DATABASES = [
+            {
+                url: 'https://raw.githubusercontent.com/hank2630/svg/refs/heads/main/whole_db',
+                name: 'whole_db'
+            },
+            {
+                url: 'https://raw.githubusercontent.com/hank2630/svg/main/db/m3-2026-spring.json',
+                name: 'm3-2026-spring'
+            }
+            // 可以在這裡繼續加入更多資料庫
+        ];
 
         let fullData = [];
         let sortState = { col: null, order: null };
         let columnFilters = {};
-        const visibleColumns = ['歌手/社團名稱', '專輯名稱', '攤位', 'Credits'];
+        const visibleColumns = ['歌手/社團名稱', '專輯名稱', '攤位', 'Credits', '資料來源'];
 
         // 顯示錯誤訊息
         function showError(message) {
@@ -281,25 +302,52 @@
             handleSearch();
         }
 
-        // 從 URL 加載資料並轉換為表格格式
+        // 從多個資料庫加載數據
         async function loadData() {
             try {
                 document.getElementById('loading').style.display = 'block';
 
-                const response = await fetch(WHOLE_DB_URL);
+                let allAlbumData = [];
+                let successCount = 0;
 
-                if (!response.ok) {
-                    throw new Error(`HTTP 錯誤! 狀態: ${response.status}`);
+                // 逐個加載各個資料庫
+                for (const db of DATABASES) {
+                    try {
+                        console.log(`Loading from ${db.name}: ${db.url}`);
+                        const response = await fetch(db.url);
+
+                        if (!response.ok) {
+                            console.warn(`Failed to load ${db.name}: HTTP ${response.status}`);
+                            continue;
+                        }
+
+                        const data = await response.json();
+                        
+                        if (!Array.isArray(data)) {
+                            console.warn(`${db.name} is not an array, wrapping it`);
+                        }
+
+                        const albumArray = Array.isArray(data) ? data : [data];
+                        
+                        // 為每條記錄添加資料庫標記
+                        albumArray.forEach(album => {
+                            album._source = db.name;
+                        });
+
+                        allAlbumData = allAlbumData.concat(albumArray);
+                        successCount++;
+                        console.log(`Loaded ${albumArray.length} items from ${db.name}`);
+                    } catch (error) {
+                        console.warn(`Error loading ${db.name}:`, error);
+                    }
                 }
 
-                const albumData = await response.json();
-
-                if (!Array.isArray(albumData) || albumData.length === 0) {
-                    throw new Error('沒有找到資料');
+                if (allAlbumData.length === 0) {
+                    throw new Error('沒有找到任何資料');
                 }
 
                 // 轉換資料格式：將 JSON 轉為表格行列格式
-                fullData = convertToTableFormat(albumData);
+                fullData = convertToTableFormat(allAlbumData);
 
                 setupColumnFilters();
                 buildTableSkeleton();
@@ -314,7 +362,7 @@
 
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('dataInfo').style.display = 'block';
-                document.getElementById('dataInfo').textContent = `共載入 ${albumData.length} 筆資料`;
+                document.getElementById('dataInfo').textContent = `共載入 ${allAlbumData.length} 筆資料（來自 ${successCount} 個資料庫）`;
 
             } catch (error) {
                 console.error('錯誤:', error);
@@ -360,6 +408,9 @@
                 // 第7欄：Credits
                 row.push(album['Credits'] || '');
 
+                // 第8欄：資料來源（數據庫名稱）
+                row.push(album['_source'] || 'unknown');
+
                 tableData.push(row);
             });
 
@@ -372,7 +423,8 @@
                 0: '', // 歌手
                 1: '', // 專輯
                 3: '', // 攤位
-                6: ''  // Credits
+                6: '', // Credits
+                7: ''  // 資料來源
             };
         }
 
@@ -389,7 +441,8 @@
                 0: '歌手/社團名稱',
                 1: '專輯名稱',
                 3: '攤位',
-                6: 'Credits'
+                6: 'Credits',
+                7: '資料來源'
             };
 
             Object.entries(columnMap).forEach(([idx, name]) => {
@@ -442,7 +495,7 @@
                 if (globalTerm === '') {
                     globalMatch = true;
                 } else {
-                    const visibleIndices = [0, 1, 3, 6];
+                    const visibleIndices = [0, 1, 3, 6, 7];
                     for (const idx of visibleIndices) {
                         const text = cellToString(row[idx]).toLowerCase();
                         if (text.includes(globalTerm)) {
@@ -556,6 +609,12 @@
                 td6.textContent = escapeHTML(String(row[6] || ''));
                 tr.appendChild(td6);
 
+                // 第5欄：資料來源
+                const td7 = document.createElement('td');
+                const sourceTag = `<div class="database-tag">${escapeHTML(String(row[7] || 'unknown'))}</div>`;
+                td7.innerHTML = sourceTag;
+                tr.appendChild(td7);
+
                 tbody.appendChild(tr);
             });
 
@@ -563,7 +622,7 @@
             if (dataRows.length === 0) {
                 const tr = document.createElement('tr');
                 const td = document.createElement('td');
-                td.colSpan = 4;
+                td.colSpan = 5;
                 td.style.textAlign = 'center';
                 td.textContent = '無符合資料';
                 tr.appendChild(td);
