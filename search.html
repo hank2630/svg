@@ -274,7 +274,7 @@
         let fullData = [];
         let sortState = { col: null, order: null };
         let columnFilters = {};
-        const visibleColumns = ['歌手/社團名稱', '專輯名稱', '攤位', 'Credits', '資料來源'];
+        const visibleColumns = ['歌手/社團名稱', '專輯名稱', '攤位', 'Credits'];
 
         // 顯示錯誤訊息
         function showError(message) {
@@ -390,8 +390,11 @@
                     url: album['社群網站'] || ''
                 });
 
-                // 第2欄：專輯名稱
-                row.push(album['專輯名稱'] || '');
+                // 第2欄：專輯名稱 + 資料來源
+                row.push({
+                    text: album['專輯名稱'] || '',
+                    source: album['_source'] || 'unknown'
+                });
 
                 // 第3欄：XFD (隱藏，用於展示)
                 row.push(album['XFD'] || '');
@@ -408,9 +411,6 @@
                 // 第7欄：Credits
                 row.push(album['Credits'] || '');
 
-                // 第8欄：資料來源（數據庫名稱）
-                row.push(album['_source'] || 'unknown');
-
                 tableData.push(row);
             });
 
@@ -423,8 +423,7 @@
                 0: '', // 歌手
                 1: '', // 專輯
                 3: '', // 攤位
-                6: '', // Credits
-                7: ''  // 資料來源
+                6: ''  // Credits
             };
         }
 
@@ -441,8 +440,7 @@
                 0: '歌手/社團名稱',
                 1: '專輯名稱',
                 3: '攤位',
-                6: 'Credits',
-                7: '資料來源'
+                6: 'Credits'
             };
 
             Object.entries(columnMap).forEach(([idx, name]) => {
@@ -495,7 +493,7 @@
                 if (globalTerm === '') {
                     globalMatch = true;
                 } else {
-                    const visibleIndices = [0, 1, 3, 6, 7];
+                    const visibleIndices = [0, 1, 3, 6];
                     for (const idx of visibleIndices) {
                         const text = cellToString(row[idx]).toLowerCase();
                         if (text.includes(globalTerm)) {
@@ -553,9 +551,14 @@
                 td0.innerHTML = `<div>${mainText0}</div>${icons0}`;
                 tr.appendChild(td0);
 
-                // 第2欄：專輯名稱 + XFD & 特設網站連結
+                // 第2欄：專輯名稱 + 資料來源標籤 + XFD & 特設網站連結
                 const td1 = document.createElement('td');
-                const mainText1 = escapeHTML(String(row[1] || ''));
+                const cell1 = row[1];
+                const albumName = typeof cell1 === 'object' ? (cell1.text || '') : cell1;
+                const source = typeof cell1 === 'object' ? (cell1.source || 'unknown') : 'unknown';
+                const mainText1 = escapeHTML(String(albumName));
+                const sourceTag = `<div class="database-tag">${escapeHTML(source)}</div>`;
+                
                 let icons1 = '';
                 const iconDiv = document.createElement('div');
                 iconDiv.className = 'icon-div';
@@ -582,7 +585,7 @@
                     iconDiv.appendChild(link);
                 }
 
-                td1.innerHTML = `<div>${mainText1}</div>`;
+                td1.innerHTML = `<div>${mainText1}</div>${sourceTag}`;
                 if (iconDiv.children.length > 0) {
                     td1.appendChild(iconDiv);
                 }
@@ -609,12 +612,6 @@
                 td6.textContent = escapeHTML(String(row[6] || ''));
                 tr.appendChild(td6);
 
-                // 第5欄：資料來源
-                const td7 = document.createElement('td');
-                const sourceTag = `<div class="database-tag">${escapeHTML(String(row[7] || 'unknown'))}</div>`;
-                td7.innerHTML = sourceTag;
-                tr.appendChild(td7);
-
                 tbody.appendChild(tr);
             });
 
@@ -622,7 +619,7 @@
             if (dataRows.length === 0) {
                 const tr = document.createElement('tr');
                 const td = document.createElement('td');
-                td.colSpan = 5;
+                td.colSpan = 4;
                 td.style.textAlign = 'center';
                 td.textContent = '無符合資料';
                 tr.appendChild(td);
@@ -664,7 +661,10 @@
         // 將儲存格轉為字串
         function cellToString(cell) {
             if (cell === null || cell === undefined) return '';
-            if (typeof cell === 'object') return String(cell.text || '');
+            if (typeof cell === 'object') {
+                // 如果是物件，優先返回 text 屬性，再嘗試 source
+                return String(cell.text || cell.source || '');
+            }
             return String(cell);
         }
 
