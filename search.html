@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KK0SE3W1KF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-KK0SE3W1KF');
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: "Zen Antique Soft", serif;
+            font-weight: 300;
+            font-style: normal;
+            font-size: clamp(10px, 2vw, 18px);
+            background-color: #343434;
+            margin: 16px;
+        }
+
+        h1 {
+            font-weight: 500;
+            color: white;
+        }
+
+        .search-section {
+            margin-bottom: 20px;
+        }
+
+        .search-section label {
+            font-weight: 300;
+            color: white;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .search-section input[type="text"] {
+            width: 100%;
+            max-width: 400px;
+            padding: 8px 12px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        .search-section button {
+            padding: 8px 15px;
+            background-color: #95c7fc;
+            color: #000;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-right: 10px;
+        }
+
+        .search-section button:hover {
+            opacity: 0.85;
+        }
+
+        .search-hint {
+            font-weight: 300;
+            font-size: 1.0em;
+            color: white;
+            margin-top: 8px;
+        }
+
+        #loading {
+            display: none;
+            text-align: center;
+            font-size: 1.2em;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #555;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border: none;
+        }
+
+        td, th {
+            word-wrap: break-word;
+            white-space: normal;
+            max-width: 250px;
+            overflow: hidden;
+            padding: 10px;
+            border: 2px solid white;
+            background-color: #e0e0e0;
+            vertical-align: middle;
+        }
+
+        thead th {
+            background: #cfcfcf;
+            cursor: pointer;
+            user-select: none;
+            padding: 10px;
+            position: relative;
+        }
+
+        thead th .sort-indicator {
+            display: inline-block;
+            width: 6px;
+            text-align: center;
+            margin-left: 6px;
+            vertical-align: -45%;
+            font-size: 12px;
+        }
+
+        thead tr.filter-row input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 6px;
+        }
+
+        a.icon-link {
+            text-decoration: none;
+            margin-right: 6px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            background-color: #f0f0f0;
+            border-radius: 50%;
+            color: #667eea;
+            transition: all 0.3s ease;
+        }
+
+        a.icon-link:hover {
+            background-color: #667eea;
+            color: white;
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        a.icon-link i {
+            font-size: 12px;
+        }
+
+        .icon-div {
+            display: flex;
+            gap: 6px;
+            margin-top: 6px;
+            flex-wrap: wrap;
+        }
+
+        /* 小螢幕調整 */
+        @media (max-width: 640px) {
+            td, th {
+                padding: 8px;
+                font-size: 12px;
+                max-width: 150px;
+            }
+
+            .search-section input[type="text"] {
+                max-width: 100%;
+            }
+        }
+
+        .error-message {
+            background-color: #fff3cd;
+            border: 1px solid #ffc107;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .error-message.show {
+            display: block;
+        }
+
+        .data-info {
+            color: white;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .back-link {
+            color: #95c7fc;
+            text-decoration: none;
+            margin-bottom: 15px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <a href="javascript:history.back()" class="back-link">← 返回</a>
+
+    <h1>搜尋所有M3資料</h1>
+
+    <div class="search-section">
+        <label for="searchInput">搜尋 (模糊搜尋)</label>
+        <input type="text" id="searchInput" placeholder="輸入關鍵字搜尋..." oninput="handleSearch()" />
+        <button onclick="clearSearch()">清除</button>
+        <div class="search-hint">💡 提示：可依歌手、專輯名稱、攤位等關鍵字搜尋</div>
+    </div>
+
+    <!-- 錯誤訊息 -->
+    <div class="error-message" id="errorMessage">
+        <i class="fas fa-exclamation-triangle" style="margin-right: 10px;"></i>
+        <span id="errorText"></span>
+    </div>
+
+    <!-- 載入中提示 -->
+    <div id="loading">
+        <div class="spinner"></div>
+        <div style="font-weight: 400; color: white;">載入中...</div>
+    </div>
+
+    <!-- 表格容器 -->
+    <table id="dataTable"></table>
+
+    <!-- 資料統計 -->
+    <div class="data-info" id="dataInfo" style="display: none;"></div>
+
+    <br><br><br><br><br>
+
+    <script>
+        // 整個資料庫URL
+        const WHOLE_DB_URL = 'https://raw.githubusercontent.com/hank2630/svg/refs/heads/main/whole_db';
+
+        let fullData = [];
+        let sortState = { col: null, order: null };
+        let columnFilters = {};
+        const visibleColumns = ['歌手/社團名稱', '專輯名稱', '攤位', 'Credits'];
+
+        // 顯示錯誤訊息
+        function showError(message) {
+            const errorDiv = document.getElementById('errorMessage');
+            const errorText = document.getElementById('errorText');
+            errorText.textContent = message;
+            errorDiv.classList.add('show');
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        // 隱藏載入中提示
+        function hideLoading() {
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        // 從URL取得搜尋參數
+        function getSearchParamFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get('q') || '';
+        }
+
+        // 清除搜尋
+        function clearSearch() {
+            document.getElementById('searchInput').value = '';
+            handleSearch();
+        }
+
+        // 從 URL 加載資料並轉換為表格格式
+        async function loadData() {
+            try {
+                document.getElementById('loading').style.display = 'block';
+
+                const response = await fetch(WHOLE_DB_URL);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP 錯誤! 狀態: ${response.status}`);
+                }
+
+                const albumData = await response.json();
+
+                if (!Array.isArray(albumData) || albumData.length === 0) {
+                    throw new Error('沒有找到資料');
+                }
+
+                // 轉換資料格式：將 JSON 轉為表格行列格式
+                fullData = convertToTableFormat(albumData);
+
+                setupColumnFilters();
+                buildTableSkeleton();
+                
+                // 設定搜尋框的初始值
+                const initialSearch = getSearchParamFromURL();
+                if (initialSearch) {
+                    document.getElementById('searchInput').value = initialSearch;
+                }
+                
+                applyFiltersAndSort();
+
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('dataInfo').style.display = 'block';
+                document.getElementById('dataInfo').textContent = `共載入 ${albumData.length} 筆資料`;
+
+            } catch (error) {
+                console.error('錯誤:', error);
+
+                if (error instanceof TypeError) {
+                    showError(`網路錯誤: ${error.message}。請檢查網路連線或 URL 是否正確。`);
+                } else if (error instanceof SyntaxError) {
+                    showError(`JSON 解析錯誤: 資料格式不正確。`);
+                } else {
+                    showError(`載入失敗: ${error.message}`);
+                }
+            }
+        }
+
+        // 將 JSON 格式轉換為表格格式
+        function convertToTableFormat(albumData) {
+            const tableData = [];
+
+            albumData.forEach(album => {
+                const row = [];
+
+                // 第1欄：歌手/社團名稱 + 社群網站連結
+                row.push({
+                    text: album['歌手/社團名稱'] || '',
+                    url: album['社群網站'] || ''
+                });
+
+                // 第2欄：專輯名稱
+                row.push(album['專輯名稱'] || '');
+
+                // 第3欄：XFD (隱藏，用於展示)
+                row.push(album['XFD'] || '');
+
+                // 第4欄：攤位
+                row.push(album['攤位'] || '');
+
+                // 第5欄：攤位資訊(品書) (隱藏，用於展示)
+                row.push(album['攤位資訊(品書)'] || '');
+
+                // 第6欄：特設網站 (隱藏，用於展示)
+                row.push(album['特設網站'] || '');
+
+                // 第7欄：Credits
+                row.push(album['Credits'] || '');
+
+                tableData.push(row);
+            });
+
+            return tableData;
+        }
+
+        // 初始化欄位篩選
+        function setupColumnFilters() {
+            columnFilters = {
+                0: '', // 歌手
+                1: '', // 專輯
+                3: '', // 攤位
+                6: ''  // Credits
+            };
+        }
+
+        // 建置表格骨架（header + filter row）
+        function buildTableSkeleton() {
+            const table = document.getElementById('dataTable');
+            table.innerHTML = '';
+
+            const thead = document.createElement('thead');
+
+            // Header 行
+            const hdrTr = document.createElement('tr');
+            const columnMap = {
+                0: '歌手/社團名稱',
+                1: '專輯名稱',
+                3: '攤位',
+                6: 'Credits'
+            };
+
+            Object.entries(columnMap).forEach(([idx, name]) => {
+                const th = document.createElement('th');
+                th.innerHTML = `<span class="col-title">${escapeHTML(name)}</span><span class="sort-indicator" data-col="${idx}">△▽</span>`;
+                th.addEventListener('click', () => toggleSort(parseInt(idx)));
+                hdrTr.appendChild(th);
+            });
+
+            thead.appendChild(hdrTr);
+
+            // Filter 行
+            const filterTr = document.createElement('tr');
+            filterTr.className = 'filter-row';
+
+            Object.keys(columnMap).forEach(idx => {
+                const th = document.createElement('th');
+                const input = document.createElement('input');
+                input.type = 'text';
+                input.placeholder = '篩選...';
+                input.value = columnFilters[idx] || '';
+                input.addEventListener('input', (e) => {
+                    columnFilters[idx] = e.target.value;
+                    applyFiltersAndSort();
+                });
+                th.appendChild(input);
+                filterTr.appendChild(th);
+            });
+
+            thead.appendChild(filterTr);
+            table.appendChild(thead);
+
+            const tbody = document.createElement('tbody');
+            table.appendChild(tbody);
+        }
+
+        // 主控：依搜尋 + 欄位篩選 + 排序產生表身
+        function applyFiltersAndSort() {
+            if (!fullData || fullData.length === 0) {
+                renderBody([]);
+                return;
+            }
+
+            const rows = fullData;
+            const globalTerm = (document.getElementById('searchInput').value || '').toLowerCase().trim();
+
+            const filtered = rows.filter(row => {
+                // 全域模糊搜尋
+                let globalMatch = false;
+                if (globalTerm === '') {
+                    globalMatch = true;
+                } else {
+                    const visibleIndices = [0, 1, 3, 6];
+                    for (const idx of visibleIndices) {
+                        const text = cellToString(row[idx]).toLowerCase();
+                        if (text.includes(globalTerm)) {
+                            globalMatch = true;
+                            break;
+                        }
+                    }
+                }
+
+                if (!globalMatch) return false;
+
+                // 每欄篩選（AND 邏輯）
+                for (const [idx, filter] of Object.entries(columnFilters)) {
+                    const f = (filter || '').toLowerCase().trim();
+                    if (f === '') continue;
+                    const text = cellToString(row[parseInt(idx)]).toLowerCase();
+                    if (!text.includes(f)) return false;
+                }
+
+                return true;
+            });
+
+            // 排序
+            if (sortState.col !== null) {
+                const colIdx = sortState.col;
+                const order = sortState.order === 'asc' ? 1 : -1;
+                filtered.sort((a, b) => compareForSort(a[colIdx], b[colIdx]) * order);
+            }
+
+            renderBody(filtered);
+            updateSortIndicators();
+        }
+
+        // 渲染表身
+        function renderBody(dataRows) {
+            const table = document.getElementById('dataTable');
+            const tbody = table.querySelector('tbody');
+            tbody.innerHTML = '';
+
+            dataRows.forEach(row => {
+                const tr = document.createElement('tr');
+
+                // 第1欄：歌手/社團名稱 + 社群網站連結
+                const td0 = document.createElement('td');
+                const cell0 = row[0];
+                const mainText0 = escapeHTML(typeof cell0 === 'object' ? (cell0.text || '') : cell0);
+                let icons0 = '';
+                if (typeof cell0 === 'object' && cell0.url) {
+                    icons0 = `<div class="icon-div">
+                        <a class="icon-link" href="${escapeHTML(cell0.url)}" target="_blank" rel="noopener noreferrer" title="社群網站">
+                            <i class="fa-solid fa-circle-user"></i>
+                        </a>
+                    </div>`;
+                }
+                td0.innerHTML = `<div>${mainText0}</div>${icons0}`;
+                tr.appendChild(td0);
+
+                // 第2欄：專輯名稱 + XFD & 特設網站連結
+                const td1 = document.createElement('td');
+                const mainText1 = escapeHTML(String(row[1] || ''));
+                let icons1 = '';
+                const iconDiv = document.createElement('div');
+                iconDiv.className = 'icon-div';
+
+                if (row[2] && row[2] !== '' && !row[2].includes('無新譜') && !row[2].includes('公開') && !row[2].includes('延期')) {
+                    const link = document.createElement('a');
+                    link.className = 'icon-link';
+                    link.href = row[2];
+                    link.target = '_blank';
+                    link.rel = 'noopener noreferrer';
+                    link.title = 'XFD';
+                    link.innerHTML = '<i class="fa-solid fa-music"></i>';
+                    iconDiv.appendChild(link);
+                }
+
+                if (row[5] && row[5] !== '') {
+                    const link = document.createElement('a');
+                    link.className = 'icon-link';
+                    link.href = row[5];
+                    link.target = '_blank';
+                    link.rel = 'noopener noreferrer';
+                    link.title = '特設網站';
+                    link.innerHTML = '<i class="fas fa-globe"></i>';
+                    iconDiv.appendChild(link);
+                }
+
+                td1.innerHTML = `<div>${mainText1}</div>`;
+                if (iconDiv.children.length > 0) {
+                    td1.appendChild(iconDiv);
+                }
+                tr.appendChild(td1);
+
+                // 第3欄：攤位 + 品書連結
+                const td3 = document.createElement('td');
+                const mainText3 = escapeHTML(String(row[3] || ''));
+                let icons3 = '';
+
+                if (row[4] && row[4] !== '') {
+                    icons3 = `<div class="icon-div">
+                        <a class="icon-link" href="${escapeHTML(row[4])}" target="_blank" rel="noopener noreferrer" title="品書">
+                            <i class="fas fa-info-circle"></i>
+                        </a>
+                    </div>`;
+                }
+
+                td3.innerHTML = `<div>${mainText3}</div>${icons3}`;
+                tr.appendChild(td3);
+
+                // 第4欄：Credits
+                const td6 = document.createElement('td');
+                td6.textContent = escapeHTML(String(row[6] || ''));
+                tr.appendChild(td6);
+
+                tbody.appendChild(tr);
+            });
+
+            // 無結果提示
+            if (dataRows.length === 0) {
+                const tr = document.createElement('tr');
+                const td = document.createElement('td');
+                td.colSpan = 4;
+                td.style.textAlign = 'center';
+                td.textContent = '無符合資料';
+                tr.appendChild(td);
+                tbody.appendChild(tr);
+            }
+        }
+
+        // 切換排序
+        function toggleSort(colIdx) {
+            if (sortState.col === colIdx) {
+                if (sortState.order === 'asc') {
+                    sortState.order = 'desc';
+                } else if (sortState.order === 'desc') {
+                    sortState.col = null;
+                    sortState.order = null;
+                } else {
+                    sortState.order = 'asc';
+                }
+            } else {
+                sortState.col = colIdx;
+                sortState.order = 'asc';
+            }
+            applyFiltersAndSort();
+        }
+
+        // 更新排序指示器
+        function updateSortIndicators() {
+            const indicators = document.querySelectorAll('.sort-indicator');
+            indicators.forEach(el => {
+                const col = Number(el.getAttribute('data-col'));
+                if (sortState.col === col) {
+                    el.textContent = (sortState.order === 'asc') ? '▲▽' : (sortState.order === 'desc' ? '△▼' : '');
+                } else {
+                    el.textContent = '△▽';
+                }
+            });
+        }
+
+        // 將儲存格轉為字串
+        function cellToString(cell) {
+            if (cell === null || cell === undefined) return '';
+            if (typeof cell === 'object') return String(cell.text || '');
+            return String(cell);
+        }
+
+        // 排序比較函數
+        function compareForSort(a, b) {
+            const sa = cellToString(a).trim();
+            const sb = cellToString(b).trim();
+            const na = parseFloat(sa.replace(/,/g, ''));
+            const nb = parseFloat(sb.replace(/,/g, ''));
+            if (!isNaN(na) && !isNaN(nb)) return na - nb;
+            return sa.toLowerCase().localeCompare(sb.toLowerCase(), undefined, { numeric: true });
+        }
+
+        // HTML 轉義
+        function escapeHTML(str) {
+            return String(str).replace(/&/g, "&amp;")
+                              .replace(/"/g, "&quot;")
+                              .replace(/'/g, "&#039;")
+                              .replace(/</g, "&lt;")
+                              .replace(/>/g, "&gt;");
+        }
+
+        // 搜尋處理
+        function handleSearch() {
+            applyFiltersAndSort();
+        }
+
+        // 頁面載入時初始化
+        window.addEventListener('load', loadData);
+    </script>
+</body>
+</html>
