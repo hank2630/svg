@@ -75,8 +75,8 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
 
-    // YouTube Player
-    implementation("com.pierfrancescosoffritti:android-youtube-player:11.0.1")
+    // YouTube Player - 使用 WebView 實現替代方案
+    // 移除: implementation("com.pierfrancescosoffritti:android-youtube-player:11.0.1")
 
     // Image loading
     implementation("io.coil-kt:coil-compose:2.4.0")
