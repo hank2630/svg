@@ -402,12 +402,12 @@
   {
     "歌手/社團名稱": "エルム凪",
     "社群網站": "https://x.com/erumunagi",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "エルム凪&時村雪人 - 幸せを知らない少女と、記憶を喰む怪物",
+    "XFD": "https://youtu.be/7fhiT0q6VqE",
     "攤位": "V-30b",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "久遠真雪/Amon/柊まも"
   },
   {
     "歌手/社團名稱": "AugMates",
@@ -892,12 +892,12 @@
   {
     "歌手/社團名稱": "ちりめんコード亭",
     "社群網站": "https://x.com/chirimencode_T",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "FOLKLORE",
+    "XFD": "https://youtu.be/Fm3Jz9aVZQQ",
     "攤位": "O-15ab",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "ムゆー/Dolpha/NoName:Re"
   },
   {
     "歌手/社團名稱": "TRON",
@@ -1952,7 +1952,7 @@
   {
     "歌手/社團名稱": "Winter Bouquet",
     "社群網站": "https://x.com/Win_Bou_info",
-    "專輯名稱": "",
+    "專輯名稱": "PETAL",
     "XFD": "",
     "攤位": "V-22b",
     "攤位資訊(品書)": "",
@@ -2878,5 +2878,35 @@
     "攤位資訊(品書)": "https://x.com/ainodesuyo2/status/2105996668122579297",
     "特設網站": "",
     "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "小山ハル",
+    "社群網站": "https://x.com/koyama9haru",
+    "專輯名稱": "Aquarium",
+    "XFD": "https://youtu.be/Y1ia_W7s0xc",
+    "攤位": "V-07a",
+    "攤位資訊(品書)": "https://x.com/koyama9haru/status/2107108432000242076",
+    "特設網站": "",
+    "Credits": "天知遥/Kuron/Saito/Nakamura Syonosuke/めのなち/灰葉/おが茶"
+  },
+  {
+    "歌手/社團名稱": "あとぅす",
+    "社群網站": "https://x.com/Atos0508",
+    "專輯名稱": "Trusted World",
+    "XFD": "https://youtu.be/axzlUE4irTM",
+    "攤位": "え-21a",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "心祈エマ/咲良ゆの/月乃/はらもりよしな/まより/橘花音/葉月リョウヘイ(U-RASIA)/りーふぱいザウルス/MUSH.T"
+  },
+  {
+    "歌手/社團名稱": "縞子",
+    "社群網站": "https://x.com/shimakokoco",
+    "專輯名稱": "余白",
+    "XFD": "",
+    "攤位": "か-39b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "夜崎ゆい/シカクイスクエア/のうべんばあ/maigo/みちる"
   }
 ]
