@@ -250,6 +250,16 @@
     "Credits": ""
   },
   {
+    "歌手/社團名稱": "はぁち",
+    "社群網站": "https://x.com/haxchi",
+    "專輯名稱": "ねこねこれくしょん！",
+    "XFD": "",
+    "攤位": "K-17a",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "後藤涼輔/tsuki/うちゅ/渡舟由良/Rostel/kuro"
+  },
+  {
     "歌手/社團名稱": "MOTTO MUSIC",
     "社群網站": "https://x.com/mottomusic_",
     "專輯名稱": "",
@@ -1002,7 +1012,7 @@
   {
     "歌手/社團名稱": "Amenochi Hare。",
     "社群網站": "https://x.com/_4MHR",
-    "專輯名稱": "",
+    "專輯名稱": "Aqua, Soda, \"Rainy\"",
     "XFD": "",
     "攤位": "M-01a",
     "攤位資訊(品書)": "",
@@ -1155,6 +1165,16 @@
     "專輯名稱": "",
     "XFD": "",
     "攤位": "コ-32a",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "花摘藍",
+    "社群網站": "https://x.com/aikochann",
+    "專輯名稱": "Sky Blue Memory",
+    "XFD": "",
+    "攤位": "E-24a",
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": ""
@@ -1368,6 +1388,26 @@
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "しろさきあや",
+    "社群網站": "https://x.com/nekonisasami",
+    "專輯名稱": "Bloomelia-Nivara-",
+    "XFD": "https://youtu.be/uh1TmW3048g",
+    "攤位": "E-18b",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://bloomelia-nivara.pages.dev/",
+    "Credits": "ヒノデ/ushiee/みーに/小菅こんにゃく/しの/クロデル/谷キリカ/Puru/nik_ibi/Sonoda/ころりん/G.M.kimchee/GAKU(MSGEX)/はらもりよしな/まより/綜花/Aragamii."
+  },
+  {
+    "歌手/社團名稱": "ナナミ",
+    "社群網站": "https://x.com/na_na_mi_p",
+    "專輯名稱": "Minera2",
+    "XFD": "https://youtu.be/QZMdjPG_-t8",
+    "攤位": "う-13b",
+    "攤位資訊(品書)": "https://static.wixstatic.com/media/cc0e0e_6e20c27a481241b28a3c4fdc8760157d~mv2.jpg/v1/fill/w_934,h_1322,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/menu_2026a_2.jpg",
+    "特設網站": "https://nanami615.wixsite.com/minera2",
+    "Credits": "nanami/​ゆきもりともり/perie/​わん/1000"
   },
   {
     "歌手/社團名稱": "Shuma",
@@ -2908,5 +2948,45 @@
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": "夜崎ゆい/シカクイスクエア/のうべんばあ/maigo/みちる"
+  },
+  {
+    "歌手/社團名稱": "無々ひさぎ",
+    "社群網站": "https://x.com/nanahisagi",
+    "專輯名稱": "空蝉想",
+    "XFD": "",
+    "攤位": "あ-16a",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "みつきゃすたー",
+    "社群網站": "https://x.com/Mitsucaster",
+    "專輯名稱": "WHALE-FALL 2026",
+    "XFD": "https://x.com/Mitsucaster/status/2105617149008183460",
+    "攤位": "H-06a",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "Mitsucaster/zeroth/XENA/Ruqcie/RoaNn&C!trus/Sunow/AoMeroiNe/OFFTONE/Shinran/Sun1ight/4tON./Nortsan"
+  },
+  {
+    "歌手/社團名稱": "凪乃ましろ",
+    "社群網站": "https://x.com/Nagino_Mashiro",
+    "專輯名稱": "波音のプレリュード",
+    "XFD": "https://youtu.be/h1Fc7D5wdrU",
+    "攤位": "キ-04ab",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "西島 尊大/Shogo Nomura/Sebon/タナカ ユウダイ (ユアネス)/山本 真央樹/石塚 陽大 (Hifumi,inc.)"
+  },
+  {
+    "歌手/社團名稱": "awamizm",
+    "社群網站": "https://x.com/awamizm",
+    "專輯名稱": "Pale Drift",
+    "XFD": "",
+    "攤位": "A-02b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": ""
   }
 ]
