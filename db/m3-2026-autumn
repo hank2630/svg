@@ -92,12 +92,12 @@
   {
     "歌手/社團名稱": "Ariabl'eyeS",
     "社群網站": "https://x.com/Lyse_ariableyes",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "憑影リタニア",
+    "XFD": "https://youtu.be/QTwDiYMLFMQ",
     "攤位": "H-20a",
     "攤位資訊(品書)": "",
-    "特設網站": "",
-    "Credits": ""
+    "特設網站": "https://ariableyes.com/ars063.html",
+    "Credits": "リゼ/Ruru/Luna/Risa Yuzuki"
   },
   {
     "歌手/社團名稱": "Eno",
@@ -572,12 +572,12 @@
   {
     "歌手/社團名稱": "めらみぽっぷ",
     "社群網站": "https://x.com/cosmopolitan093",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "The story begins -RE:-",
+    "XFD": "https://youtu.be/jkt6OeZHtdk",
     "攤位": "シ-32a",
     "攤位資訊(品書)": "",
-    "特設網站": "",
-    "Credits": ""
+    "特設網站": "https://meramipop93.wixsite.com/tsbre-music",
+    "Credits": "ロー/sh_guitar/Pado/K4T4T0M/華飯/ええっぱ"
   },
   {
     "歌手/社團名稱": "Symholic",
@@ -1132,12 +1132,12 @@
   {
     "歌手/社團名稱": "Pratanallis",
     "社群網站": "https://x.com/pratanallis_inf",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "Rain Rëflection",
+    "XFD": "https://youtu.be/JrDe7SXRw8A",
     "攤位": "I-03b",
     "攤位資訊(品書)": "",
-    "特設網站": "",
-    "Credits": ""
+    "特設網站": "https://www.pratanallis.net/rainreflection",
+    "Credits": "ヒノデ/アメミヤチカ/AmbientFlow/れいあじゅ/bean jam​/あずとらこ/​なぎぽん"
   },
   {
     "歌手/社團名稱": "DJKurara",
@@ -1212,7 +1212,7 @@
   {
     "歌手/社團名稱": "花摘藍",
     "社群網站": "https://x.com/aikochann",
-    "專輯名稱": "Sky Blue Memory",
+    "專輯名稱": "",
     "XFD": "",
     "攤位": "E-24a",
     "攤位資訊(品書)": "",
@@ -1452,12 +1452,12 @@
   {
     "歌手/社團名稱": "Shuma",
     "社群網站": "https://x.com/shumax_328",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "Sentimental6",
+    "XFD": "https://youtu.be/JkGxD3vptUQ",
     "攤位": "E-20b",
     "攤位資訊(品書)": "",
-    "特設網站": "",
-    "Credits": ""
+    "特設網站": "https://serious-sentimental6.netlify.app/",
+    "Credits": "サクラリナ/イマダ/中村朱里/みそらみみ/まより/長尾ちえみ/ひぐれ/木芽うりか"
   },
   {
     "歌手/社團名稱": "あいの",
@@ -3176,7 +3176,57 @@
     "XFD": "https://www.youtube.com/watch?v=FNm6xmIoBfI",
     "攤位": "藍-14",
     "攤位資訊(品書)": "",
-    "特設網站": "",
+    "特設網站": "https://www.projectlore.info/velatura",
     "Credits": "Yuka Kitamura/ Krimek/ 高城みよ/ Gardens/satella/ Lemm/ Morrigan(WAVE)/ NosSpiralFlip/ mopi/ Levare/Leo Elazar/KAYA/zeroth"
+  },
+  {
+    "歌手/社團名稱": "RESTARiZE",
+    "社群網站": "https://x.com/yuno_singer",
+    "專輯名稱": "SIX:VERSE",
+    "XFD": "https://youtu.be/JCe9XVvEyUA",
+    "攤位": "S-04b",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://six-verse.pages.dev/",
+    "Credits": "Ryohei Haduki(U-RASIA)/ALNEAR/アステカ/咲良ゆの/Shibayan/KING/サラキ/PETTER/Sol"
+  },
+  {
+    "歌手/社團名稱": "Eye",
+    "社群網站": "https://x.com/_Eye_0_",
+    "專輯名稱": "stic-stic",
+    "XFD": "https://youtu.be/mj2X_8PzJBk",
+    "攤位": "V-19b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "yowanecity/ソノイ/梓川/ソノイ/ど〜ぱみん/KOTONOHOUSE/Hylen/picco/zensen/d.j.ァネイロ/TeddyLoid/Fushi/ンバヂ/KAJI/鯱ノ丸/tugutugu"
+  },
+  {
+    "歌手/社團名稱": "dama",
+    "社群網站": "https://x.com/damahysk",
+    "專輯名稱": "竜の国と異能の帝国 Part.Ⅱ",
+    "XFD": "https://x.com/damahysk/status/2108512813480300857",
+    "攤位": "V-24b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "めろう(NEUTRINO)/Ryo/アーモンド/RiCO/とうめいのくに/日彩/EUREKA(ユリカリパブリック)/SANAGI/めろう(NEUTRINO)/知声(Voisona)"
+  },
+  {
+    "歌手/社團名稱": "Butterfly Pea Tea",
+    "社群網站": "https://x.com/aikochann",
+    "專輯名稱": "Sky Blue Memory",
+    "XFD": "https://youtu.be/icwgwqGtj3E",
+    "攤位": "E-24a",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://cocosamipoo7ma9.wixsite.com/aihanatsumi/post/butterfly-pea-tea-1st-cd%E3%80%8Esky-blue-memory%E3%80%8F",
+    "Credits": "YOU/花摘 藍/いつかの黒に揺蕩う灯火/KOKOMI/佐々木 聖也/白乃 秋/鮭 はらみ"
+  },
+  {
+    "歌手/社團名稱": "CorLeonis",
+    "社群網站": "https://x.com/yanaginagi",
+    "專輯名稱": "夢を食べる夢",
+    "XFD": "https://x.com/yanaginagi/status/2108497954755809539",
+    "攤位": "お-24b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "やなぎなぎ"
   }
 ]
