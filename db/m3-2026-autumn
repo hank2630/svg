@@ -113,11 +113,11 @@
     "歌手/社團名稱": "Isle & Notes",
     "社群網站": "https://x.com/IsleandNotes",
     "專輯名稱": "Heritage of Harvest",
-    "XFD": "",
+    "XFD": "https://youtu.be/eWzPQVBPQ9w",
     "攤位": "え-42b",
     "攤位資訊(品書)": "",
-    "特設網站": "",
-    "Credits": "nayuta/茶太/るる/優莉/鈍色聴/六宮/水月茉莉/sola"
+    "特設網站": "https://isln-1002.pages.dev/",
+    "Credits": "nayuta/茶太/るる/優莉/鈍色聴/六宮/水月茉莉/sola/mawari/Fty/シンナイコウジ/マドロミ/ヲカシ/水月茉莉/Ema3/鳴宮ユキ"
   },
   {
     "歌手/社團名稱": "ななきなな",
@@ -132,12 +132,12 @@
   {
     "歌手/社團名稱": "中恵光城",
     "社群網站": "https://x.com/tareko_mitsuki",
-    "專輯名稱": "",
-    "XFD": "",
-    "攤位": "お-24a",
-    "攤位資訊(品書)": "",
-    "特設網站": "",
-    "Credits": ""
+    "專輯名稱": "Project:N/A",
+    "XFD": "https://youtu.be/nqXaDikKG5M",
+    "攤位": "お-24a お-24b",
+    "攤位資訊(品書)": "https://nakae-mitsuki.net/abcas/cd/projectna/images/info-0.webp",
+    "特設網站": "https://nakae-mitsuki.net/abcas/cd/projectna/",
+    "Credits": "やなぎなぎ/中恵光城/玉子鼠/しろねぎ/折倉俊則/流歌/坂知学/Rem Design"
   },
   {
     "歌手/社團名稱": "Sennzai",
@@ -385,6 +385,16 @@
     "專輯名稱": "",
     "XFD": "",
     "攤位": "え-17a",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "箱々症候軍",
+    "社群網站": "https://x.com/H_B_ShowKohGun",
+    "專輯名稱": "零レ月のApocalypse",
+    "XFD": "",
+    "攤位": "コ-15b",
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": ""
@@ -1642,12 +1652,12 @@
   {
     "歌手/社團名稱": "Connexio",
     "社群網站": "https://x.com/connexio_c",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "ARTIFACTS:VØID",
+    "XFD": "https://www.youtube.com/watch?v=vQ8VDR4XA0Q",
     "攤位": "K-20a",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "kuro/MoAE:. /黒魔 /Connexio /Xyris /Xeudo Code /LucaProject/Glancia/Essbee /Link\"0 /Rafutsuri /新日本開発機構/ららぴっぴ/MiyU/Kazuma Enta/ARTIPHONIA"
   },
   {
     "歌手/社團名稱": "べあと",
@@ -3148,5 +3158,15 @@
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "eili",
+    "社群網站": "https://x.com/frenlize",
+    "專輯名稱": "Velatura",
+    "XFD": "https://www.youtube.com/watch?v=FNm6xmIoBfI",
+    "攤位": "藍-14",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "Yuka Kitamura/ Krimek/ 高城みよ/ Gardens/satella/ Lemm/ Morrigan(WAVE)/ NosSpiralFlip/ mopi/ Levare/Leo Elazar/KAYA/zeroth"
   }
 ]
