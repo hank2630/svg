@@ -582,12 +582,12 @@
   {
     "歌手/社團名稱": "Symholic",
     "社群網站": "https://x.com/Symholic",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "Noah vs Symholic feat.狛茉璃奈 - D:EXECUTOR",
+    "XFD": "https://youtu.be/7IXMTx1k9ww",
     "攤位": "N-05a",
     "攤位資訊(品書)": "",
-    "特設網站": "",
-    "Credits": ""
+    "特設網站": "https://www.xorsizer.com/d-executor",
+    "Credits": "Paspal/Taichi Hasegawa/HARURI/ちゃま"
   },
   {
     "歌手/社團名稱": "Nekoribo",
@@ -682,12 +682,12 @@
   {
     "歌手/社團名稱": "Liminal Warp",
     "社群網站": "https://x.com/Liminal_Warp",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "Nocturnal Edge 7",
+    "XFD": "https://x.com/Liminal_Warp/status/2109587907619303871",
     "攤位": "P-01b",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "poniyama/RYOQUCHA/Yuze/Kakun/N_dog/Serji/BOMAYE/B-maybe/yualith/052/Dustvoxx/poniyama"
   },
   {
     "歌手/社團名稱": "まだ見たことのないセカイ",
@@ -983,11 +983,11 @@
     "歌手/社團名稱": "仲村芽衣子",
     "社群網站": "https://x.com/nakamurameiko",
     "專輯名稱": "夏花心中",
-    "XFD": "",
+    "XFD": "https://youtu.be/7NmC_vcU4VI",
     "攤位": "F-08b",
     "攤位資訊(品書)": "",
-    "特設網站": "",
-    "Credits": ""
+    "特設網站": "https://nakamurameiko.net/arpk3008/",
+    "Credits": "真崎エリカ/五条下位(SYNC.ART'S)/邪王(floorclean Sound)/水夏える(L-TYPE/Gift)/Shibayan(ShibayanRecords)/おーぶりー/のだめろん/SEWA"
   },
   {
     "歌手/社團名稱": "繭糸",
@@ -1492,12 +1492,12 @@
   {
     "歌手/社團名稱": "Adust Rain",
     "社群網站": "https://x.com/AdustRain",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "Drama Queen",
+    "XFD": "https://youtu.be/j3QIq-K59J8",
     "攤位": "H-23a",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "okogeeechann/Kyoko Amane/kissssy/帛田ヌキ/ISAMYU"
   },
   {
     "歌手/社團名稱": "まより",
@@ -1712,8 +1712,8 @@
   {
     "歌手/社團名稱": "Azupiano",
     "社群網站": "https://x.com/azupiano",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "FROSTLiA",
+    "XFD": "https://youtu.be/IYlDQF9_gfY",
     "攤位": "L-20b",
     "攤位資訊(品書)": "",
     "特設網站": "",
@@ -2043,11 +2043,11 @@
     "歌手/社團名稱": "Winter Bouquet",
     "社群網站": "https://x.com/Win_Bou_info",
     "專輯名稱": "PETAL",
-    "XFD": "",
+    "XFD": "https://youtu.be/8WZemJfVZGg",
     "攤位": "V-22b",
     "攤位資訊(品書)": "https://x.com/Win_Bou_info/status/2108135313373851669/photo/1",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "Attra Pop Gate/妃舞 ゆにこ/The Father as a Service/Connexio/moimoi/mewt."
   },
   {
     "歌手/社團名稱": "studiosnail",
@@ -3085,7 +3085,7 @@
     "專輯名稱": "波音のプレリュード",
     "XFD": "https://youtu.be/h1Fc7D5wdrU",
     "攤位": "キ-04ab",
-    "攤位資訊(品書)": "",
+    "攤位資訊(品書)": "https://x.com/Nagino_Mashiro/status/2109474095205363811",
     "特設網站": "",
     "Credits": "西島 尊大/Shogo Nomura/Sebon/タナカ ユウダイ (ユアネス)/山本 真央樹/石塚 陽大 (Hifumi,inc.)"
   },
@@ -3103,11 +3103,11 @@
     "歌手/社團名稱": "雛森アンシア",
     "社群網站": "https://x.com/snow_leopard_A2",
     "專輯名稱": "Lovely Day",
-    "XFD": "",
+    "XFD": "https://youtu.be/cG0Q38J53s4",
     "攤位": "V-22b",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "Tomggg/雨霧リアン/山下僚海/WAKUTO/Nuz/gaburyu/NEMO/ｽｲﾐﾝ/二古宮/埃戸"
   },
   {
     "歌手/社團名稱": "じゅんむら",
@@ -3418,5 +3418,15 @@
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": "五条下位/流歌/折倉俊則/SENTIVE/悠花ユカ/中恵光城/片霧烈火/yuiko/コツキミヤ/葉山りく/めーめ/Sebastian/あたいわだれか"
+  },
+  {
+    "歌手/社團名稱": "宮守ゆり",
+    "社群網站": "https://x.com/miyavi_udon",
+    "專輯名稱": "Stellia: Clear Notes",
+    "XFD": "https://youtu.be/ApD6UvvS-8U",
+    "攤位": "か-27ab",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "にょる/nayuta/沫雪ゆうり/織姫はるか/鈍色聴/歪牙龍尾/ごろく/ほそい/かわせ/てんきゅう"
   }
 ]
