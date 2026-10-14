@@ -163,11 +163,11 @@
     "歌手/社團名稱": "Sennzai",
     "社群網站": "https://x.com/sennzai",
     "專輯名稱": "Synkrasis",
-    "XFD": "",
+    "XFD": "https://youtu.be/C6nm6NNC4a4",
     "攤位": "あ-04a",
-    "攤位資訊(品書)": "",
-    "特設網站": "",
-    "Credits": ""
+    "攤位資訊(品書)": "https://sennzai-synkrasis.pages.dev/images/info-0.webp",
+    "特設網站": "https://sennzai-synkrasis.pages.dev/",
+    "Credits": "Somari/ヨノ/YAMAAD/Mogaki/Aut0/ひじり/壱 あれい/星野誠/威戸れもね。/みちる/Sebon/TTK/Puru/菅原ヒロト(femt)/ROB/Sol/Elegant Sister/eili"
   },
   {
     "歌手/社團名稱": "Room97",
@@ -563,7 +563,7 @@
     "歌手/社團名稱": "みちとせ",
     "社群網站": "https://x.com/_3cts",
     "專輯名稱": "波と花",
-    "XFD": "",
+    "XFD": "https://youtu.be/toSya9qpDPo",
     "攤位": "か-36a",
     "攤位資訊(品書)": "",
     "特設網站": "",
@@ -802,12 +802,12 @@
   {
     "歌手/社團名稱": "Hommarju",
     "社群網站": "https://x.com/Hommarju",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "Gravity of Freeform",
+    "XFD": "https://youtu.be/tLCA3y4GMZQ",
     "攤位": "Q-07a",
     "攤位資訊(品書)": "",
-    "特設網站": "",
-    "Credits": ""
+    "特設網站": "https://hommarju.com/NO1Z-0025/",
+    "Credits": "coda"
   },
   {
     "歌手/社團名稱": "かゆき",
@@ -1182,12 +1182,12 @@
   {
     "歌手/社團名稱": "それ故",
     "社群網站": "https://x.com/sore_yueni",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "ユーエンミーⅡ",
+    "XFD": "https://youtu.be/pAbkeM1lQ5U",
     "攤位": "か-36b",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "gaogao/空閑環/しおばにら/繭糸/ユシナ/月の夜/マツリカ/縞子/柚木みとり/ねんね/MEA/日南めい/um./平光/よわいにんげん"
   },
   {
     "歌手/社團名稱": "フーリンキャットマーク",
@@ -1382,12 +1382,12 @@
   {
     "歌手/社團名稱": "Java Sparrow Music!!",
     "社群網站": "https://x.com/yasukei23916",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "J-CORE Alive 6",
+    "XFD": "https://youtu.be/hWKCrMgiEd4",
     "攤位": "Q-09b",
     "攤位資訊(品書)": "",
-    "特設網站": "",
-    "Credits": ""
+    "特設網站": "https://jcorealive6.pages.dev/",
+    "Credits": "hu-zin/Takahiro Aoki/YUPPUN/pocotan/DJ AIR-G/bootpanda/E0ri4/Riku/wrashi/Pokkun/yuki./nenpulse/LU-I/youmi/Guos/kokodoko"
   },
   {
     "歌手/社團名稱": "Fujimi Industry Records",
@@ -1802,12 +1802,12 @@
   {
     "歌手/社團名稱": "Nevylulu",
     "社群網站": "https://x.com/Nevylulululu",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "進もう！どきどきハピピmyN",
+    "XFD": "https://youtu.be/2MRWvPbVoSM",
     "攤位": "コ-29a",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "愛奏ルミナ/夢咲みう/優莉/ラングドシャ/蕗奈/海桜せな/catacleco/利都/だら"
   },
   {
     "歌手/社團名稱": "sola",
@@ -2090,9 +2090,9 @@
     "Credits": "Attra Pop Gate/妃舞 ゆにこ/The Father as a Service/Connexio/moimoi/mewt."
   },
   {
-    "歌手/社團名稱": "studiosnail",
+    "歌手/社團名稱": "Snail's House",
     "社群網站": "https://x.com/StudioSnailJP",
-    "專輯名稱": "",
+    "專輯名稱": "Lumi",
     "XFD": "",
     "攤位": "V-20ab",
     "攤位資訊(品書)": "",
@@ -2640,6 +2640,16 @@
     "Credits": ""
   },
   {
+    "歌手/社團名稱": "9Tailしっぽ",
+    "社群網站": "https://x.com/9tail4DTMer",
+    "專輯名稱": "創世の零【Start of World CHAOS】",
+    "XFD": "https://youtu.be/RcgG_NR3Ruw",
+    "攤位": "F-16a",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "たんと/とき"
+  },
+  {
     "歌手/社團名稱": "ばんし",
     "社群網站": "https://x.com/banbanshi",
     "專輯名稱": "Sunny Flagments",
@@ -3173,11 +3183,11 @@
     "歌手/社團名稱": "じゅんむら",
     "社群網站": "https://x.com/otaku_yameta",
     "專輯名稱": "Lying In Lyrical Nights",
-    "XFD": "",
+    "XFD": "https://x.com/otaku_yameta/status/2109962364380725393",
     "攤位": "M-14a",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "はくゆ/未確認動物うまぴ/椎名かいね/甘葱とろ"
   },
   {
     "歌手/社團名稱": "Sceno Ichiro",
@@ -3685,6 +3695,136 @@
     "專輯名稱": "TOMATOMANIA!!",
     "XFD": "https://youtu.be/vN9SDQUiduo",
     "攤位": "お-32b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "Lidlic",
+    "社群網站": "https://x.com/Lidlic_official",
+    "專輯名稱": "まだ名前の無い飛翔",
+    "XFD": "https://youtu.be/ZFnvZGZAVUM",
+    "攤位": "H-16a",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "Sennzai/みそらみみ/二ノ宮はぐ/ねんね/Rato/白兎兎/Simo/みちる"
+  },
+  {
+    "歌手/社團名稱": "esoragoto",
+    "社群網站": "https://x.com/esoragoto0",
+    "專輯名稱": "Memories #1",
+    "XFD": "https://youtu.be/VCk5rtkrveU",
+    "攤位": "あ-07ab",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "ちょこ",
+    "社群網站": "https://x.com/cho_v_ko",
+    "專輯名稱": "ラブパレット！",
+    "XFD": "https://youtu.be/8FdNqJqwiw4",
+    "攤位": "え-22ab",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "ななひら/マスタード/中村さんそ/愛原圭織/Kijibato/Athan Lily/Capchii/ささみグミ/かそかそ"
+  },
+  {
+    "歌手/社團名稱": "kanashima",
+    "社群網站": "https://x.com/kanashima_85",
+    "專輯名稱": "project И",
+    "XFD": "https://youtu.be/ThrFnNzG3sw",
+    "攤位": "P-22a",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://kanashima85.wixsite.com/projectn",
+    "Credits": "Keyvell./RIZARDI/Coakira/RedOgre/Mercury"
+  },
+  {
+    "歌手/社團名稱": "狛茉璃奈",
+    "社群網站": "https://x.com/kmtn62",
+    "專輯名稱": "深蝕ハルシネーション",
+    "XFD": "https://youtu.be/rxLV1VdXgeI",
+    "攤位": "N-05a",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://www.komatsurina.com/kmtrn-006",
+    "Credits": "Paspal(Symholic)/河菜のね/ちゃま"
+  },
+  {
+    "歌手/社團名稱": "Ōudon",
+    "社群網站": "https://x.com/_ooudon",
+    "專輯名稱": "Ōudon2",
+    "XFD": "https://youtu.be/BfKvytY-PV8",
+    "攤位": "C-15ab",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://oudonooudon.wixsite.com/-udon-official/post/%C5%8Dudon-2ndep%E3%80%8E%C5%8Dudon2%E3%80%8F",
+    "Credits": "appy/浅倉森/いちいいず/臼杵すう/歌川シキ/airy.i.ray/お柴鉱脈/キテ/髥莏/Sohbana/とーず/Иagi/なぬりそ/仁科みしま/真島ゆろ/みずみずナマズ/mimikawa/安見すや/駱駝法師"
+  },
+  {
+    "歌手/社團名稱": "Silverize.",
+    "社群網站": "https://x.com/silverize_info",
+    "專輯名稱": "Re:XIII",
+    "XFD": "https://youtu.be/dmybu3yacmU",
+    "攤位": "F-08b",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://rexiii.pages.dev/",
+    "Credits": "しろさきあや/まより/laiN/ケィニ/おくみずき/八花/ななきなな/仲村芽衣子/乃花こより/狛茉璃奈/谷キリカ/葉月リョウヘイ(U-RASIA)/大宮水那瀬/叢神智斗紅/のあのけ/セナ/四宮のん/esu_kichi/Poina"
+  },
+  {
+    "歌手/社團名稱": "翠京",
+    "社群網站": "https://x.com/Suisui__022",
+    "專輯名稱": "彗星のアクアリウム",
+    "XFD": "https://youtu.be/e81mWaNB450",
+    "攤位": "シ-20b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "grape@ぶどうP/Nekoribo/Mobkinako/TAKIO/天束"
+  },
+  {
+    "歌手/社團名稱": "ATRCTA",
+    "社群網站": "https://x.com/_P0cket",
+    "專輯名稱": "HYPERBIBLE 2",
+    "XFD": "https://youtu.be/zbz97DTm2n8",
+    "攤位": "P-12a",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://hyperbible2.netlify.app/",
+    "Credits": "Notrum/P0cket/ÉtudE/Maqµin/Reku Mochizuki/MiYAjY/RhukiA/ひゅ～ぶ/まろきめがぬ"
+  },
+  {
+    "歌手/社團名稱": "Author wind",
+    "社群網站": "https://x.com/Author_wind",
+    "專輯名稱": "KAWAII STATION Vol.3 | Beyond the Summer",
+    "XFD": "https://x.com/Author_wind/status/2109292809270534340",
+    "攤位": "え-20b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "Xeno/co7ty/MaxOTT/Malcha/Ryuja Cat/LUNE/hosu/K-NEXT/一斗缶 -ittokan-/ckwa/RuYA/INuya/pin/Wa"
+  },
+  {
+    "歌手/社團名稱": "あいの",
+    "社群網站": "https://x.com/aino_2525",
+    "專輯名稱": "だってもっと眠っていたい！",
+    "XFD": "https://youtu.be/mUzEdMF9X6E",
+    "攤位": "I-05b",
+    "攤位資訊(品書)": "",
+    "特設網站": "https://dattemottonemutteitai.pages.dev/",
+    "Credits": "Ray_Oh/春雲とい/みずおかはな/KB/samo/日南めい/ぎｎ/いたちもーど/くろもも"
+  },
+  {
+    "歌手/社團名稱": "yamcha",
+    "社群網站": "https://x.com/yam_cha7",
+    "專輯名稱": "トーキョーダイアリー",
+    "XFD": "https://youtu.be/BkK9yDqHFxU",
+    "攤位": "お-20b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "はぁち/まるもこ/むむ猫/那由歌(VoiSona)/セナ/ぷるぷる杏仁/あにゃぱんぱか"
+  },
+  {
+    "歌手/社團名稱": "ZeroAmethyst",
+    "社群網站": "https://x.com/ZeroAmethyst",
+    "專輯名稱": "2周目世界紀行",
+    "XFD": "https://youtu.be/5wTludHP7aU",
+    "攤位": "K-12a",
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": ""
