@@ -52,17 +52,17 @@
   {
     "歌手/社團名稱": "藍月なくる",
     "社群網站": "https://x.com/NakuruAitsuki",
-    "專輯名稱": "",
-    "XFD": "",
-    "攤位": "T-14ab",
+    "專輯名稱": "Devouring Aria",
+    "XFD": "https://youtu.be/TmV3_kjocBM",
+    "攤位": "T14-ab",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "にお/石塚陽大（Hifumi,inc.）/グシミヤギヒデユキ/おはる/Athan Lily/かめりあ/おぐらあすか/Feryquitous/高城みよ/Lemm/sky_delta/神林亮太/樋口幸佑/陀田ゾン/かねこあみ/ヱレキテルワークス"
   },
   {
     "歌手/社團名稱": "Endorfin.",
     "社群網站": "https://x.com/endorfin31",
-    "專輯名稱": "",
+    "專輯名稱": "水花",
     "XFD": "",
     "攤位": "シ-24ab",
     "攤位資訊(品書)": "",
@@ -202,12 +202,12 @@
   {
     "歌手/社團名稱": "TAKIO",
     "社群網站": "https://x.com/takio872",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "Voyage of MULTIVERSE",
+    "XFD": "https://youtu.be/Fgz7YK1p3hU",
     "攤位": "K-20b",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "みずかね/つぐ/羽鳥玲/みそらみみ/しろさきあや/月乃/駄々子/lowiro"
   },
   {
     "歌手/社團名稱": "天束",
@@ -4288,5 +4288,35 @@
     "攤位資訊(品書)": "",
     "特設網站": "https://u-rasiaew2026.pages.dev/",
     "Credits": "Yuu Ito/Ryohei Haduki/鬼太/ことの/仲村芽衣子/月乃/こむた"
+  },
+  {
+    "歌手/社團名稱": "Eye",
+    "社群網站": "https://x.com/_Eye_0_",
+    "專輯名稱": "stic-stic",
+    "XFD": "https://youtu.be/mj2X_8PzJBk",
+    "攤位": "V-19b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "yowanecity/ソノイ/梓川/ソノイ/ど〜ぱみん/KOTONOHOUSE/Hylen/picco/zensen/d.j.ァネイロ/TeddyLoid/Fushi/ンバヂ/KAJI/鯱ノ丸/tugutugu"
+  },
+  {
+    "歌手/社團名稱": "Project-G",
+    "社群網站": "https://x.com/project___g",
+    "專輯名稱": "Just  a piece of paper",
+    "XFD": "https://x.com/project___g/status/2111397145052107099",
+    "攤位": "シ-11b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "ラクガキスタジオ",
+    "社群網站": "https://x.com/rakugaki_stu",
+    "專輯名稱": "プラニスフェール・セレスト",
+    "XFD": "https://youtu.be/566C5nSaomM",
+    "攤位": "T-09b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "Gyr0/きあと/織井辺コフィ/星銀乃丈/yasai31/ハレトキドキ/いのうつはSA/佐藤貴文"
   }
 ]
