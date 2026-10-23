@@ -612,8 +612,8 @@
   {
     "歌手/社團名稱": "YUC'e",
     "社群網站": "https://x.com/yuce_e",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "Pocket Pop Star",
+    "XFD": "https://x.com/yuce_e/status/2113412585521586475?s=20",
     "攤位": "V-20ab",
     "攤位資訊(品書)": "",
     "特設網站": "",
@@ -1322,12 +1322,12 @@
   {
     "歌手/社團名稱": "gmtn.",
     "社群網站": "https://x.com/gumtune",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "五里無題 -Mystitled-",
+    "XFD": "https://www.youtube.com/watch?v=4j0WW9DxW3g",
     "攤位": "H-03a",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "殲ちゃん/dj Extrose"
   },
   {
     "歌手/社團名稱": "転寝こより",
@@ -1370,11 +1370,11 @@
     "Credits": ""
   },
   {
-    "歌手/社團名稱": "",
-    "社群網站": "",
-    "專輯名稱": "",
-    "XFD": "",
-    "攤位": "",
+    "歌手/社團名稱": "Taishi",
+    "社群網站": "https://x.com/taishi_coad",
+    "專輯名稱": "AMALUX",
+    "XFD": "https://www.youtube.com/watch?v=OaTaN-kWh_s",
+    "攤位": "Q-19a",
     "攤位資訊(品書)": "",
     "特設網站": "",
     "Credits": ""
@@ -1682,12 +1682,12 @@
   {
     "歌手/社團名稱": "Synthion",
     "社群網站": "https://x.com/synthionmusic",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "aquamarine",
+    "XFD": "https://www.youtube.com/watch?v=AlLiEcAxbBk",
     "攤位": "V-37a",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "posi/inq"
   },
   {
     "歌手/社團名稱": "iole",
@@ -2102,8 +2102,8 @@
   {
     "歌手/社團名稱": "黒魔",
     "社群網站": "https://x.com/c_h_r_o_m_a",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "もしもユートピア",
+    "XFD": "https://www.youtube.com/watch?v=y8jHegRtR9k",
     "攤位": "か-02a",
     "攤位資訊(品書)": "",
     "特設網站": "",
@@ -2792,12 +2792,12 @@
   {
     "歌手/社團名稱": "Yo×3",
     "社群網站": "https://x.com/yoyoyo_dtm",
-    "專輯名稱": "",
-    "XFD": "",
+    "專輯名稱": "VOCABUSTERZ",
+    "XFD": "https://www.youtube.com/watch?v=eZiowqQzmtU",
     "攤位": "V-26a",
     "攤位資訊(品書)": "",
     "特設網站": "",
-    "Credits": ""
+    "Credits": "70./そこら辺にはえてるR/mentos/フカシギ/K3nto/T-J/saaa/Thunders/Nyacktas/RiraN/青井ねまき/ブブゼラ/あんたれすP/ikaruga_nex/anubasu-anubasu/LillyRazy/yutayuki"
   },
   {
     "歌手/社團名稱": "Lunabitt.",
@@ -5228,5 +5228,35 @@
     "攤位資訊(品書)": "https://x.com/nextlight_jp/status/2112861627146182849",
     "特設網站": "",
     "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "K-forest",
+    "社群網站": "https://x.com/Kforest34",
+    "專輯名稱": "EVOLVER",
+    "XFD": "https://www.youtube.com/watch?v=iBU-YKEnZyg",
+    "攤位": "あ-14a",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": "Halv/Riku/Reku Mochizuki/Kuroa*/後藤涼輔/あらね/ひのき"
+  },
+  {
+    "歌手/社團名稱": "MK",
+    "社群網站": "https://x.com/mkshadw",
+    "專輯名稱": "MK&Kanae Asaba - GRAVITY",
+    "XFD": "https://www.youtube.com/watch?v=8YYGTgF9QMo",
+    "攤位": "ケ-27b",
+    "攤位資訊(品書)": "",
+    "特設網站": "",
+    "Credits": ""
+  },
+  {
+    "歌手/社團名稱": "yonishi",
+    "社群網站": "https://x.com/yonishi_424",
+    "專輯名稱": "5 Life Essence",
+    "XFD": "https://www.youtube.com/watch?v=lOAyg2o-rTM",
+    "攤位": "コ-16b",
+    "攤位資訊(品書)": "https://x.com/yonishi_424/status/2113277146131235233",
+    "特設網站": "",
+    "Credits": "保坂よん/西片瑞樹/足立ショウヘイ/ノーコピーライトガール/キムラヨシト"
   }
 ]
